@@ -1,5 +1,7 @@
 import React from "react";
-import "../styles/RegiserStyles.css";
+// import "../styles/RegiserStyles.css";
+import '../styles/RegisterStyles.css'; // Correct
+
 import { Form, Input, message } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
