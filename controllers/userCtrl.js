@@ -27,6 +27,7 @@ const registerController = async (req, res) => {
     }
 };
 
+
 // login callback
 const loginController = async (req, res) => {
     try {
@@ -51,5 +52,6 @@ const loginController = async (req, res) => {
         res.status(500).send({ message: `Error in Login CTRL ${error.message}` });
     }
 };
+
 
 module.exports = { loginController, registerController };
